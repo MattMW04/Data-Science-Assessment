@@ -1,0 +1,4 @@
+Cluster 0: This cluster consists of individuals with higher glucose levels, higher BMI, older age, and a greater likelihood of having diabetes (Outcome = 1). This cluster might represent individuals at higher risk for diabetes.
+
+
+Cluster 1: This cluster consists of individuals with lower glucose levels, lower BMI, younger age, and lower likelihood of having diabetes (Outcome = 0). This cluster likely represents healthier individuals.
