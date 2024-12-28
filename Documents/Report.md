@@ -85,6 +85,9 @@ Use appropriate tools to perform some visualization on the chosen dataset. The c
 
 https://www.statology.org/sklearn-regression-coefficients/- get coefficients from log reg
 https://www.geeksforgeeks.org/logistic-regression-vs-random-forest-classifier/ - for random forest vs logistic regression
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.T.html
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html - used in plotting averages by outcome
+https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly - groupby
 ***
 ## Evaluation
 **DELETE After you have performed some modelling and obtained some results, identified any patterns in the data or provided some insights, you can compare your work with existing work from other researchers in a few paragraphs to see what the effects of one variable on another are or among other variables. Evaluate your work critically, explaining what could have been done to support your analysis. What approaches could have been used? Look for models/data cleaning/data pre-processing techniques from the literature to compare your approach and evaluate critically.**
