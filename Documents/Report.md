@@ -76,9 +76,15 @@ The EDA of this Dataset aimed to see if we could get any valuable insights from 
 ***
 
 #### Data Modelling and Visualisation
+
+#### Visualisation
 **DELETE Identify your independent and dependent variables. Perform analysis such as time series, multivariate, bivariate analysis, linear regression, etc. You can try to explain what you are trying to predict, following the code examples from the class activities.
 Use appropriate tools to perform some visualization on the chosen dataset. The choice is yours, based on your future intentions of work and also your familiarity with the tool. Your report should document and justify the techniques you have used to mine and analyse the data based on examples from the weekly class activities as well as from your own research.**
 
+#### Modelling - Predict Dependent variable (Outcome) based on Dataset 
+
+https://www.statology.org/sklearn-regression-coefficients/- get coefficients from log reg
+https://www.geeksforgeeks.org/logistic-regression-vs-random-forest-classifier/ - for random forest vs logistic regression
 ***
 ## Evaluation
 **DELETE After you have performed some modelling and obtained some results, identified any patterns in the data or provided some insights, you can compare your work with existing work from other researchers in a few paragraphs to see what the effects of one variable on another are or among other variables. Evaluate your work critically, explaining what could have been done to support your analysis. What approaches could have been used? Look for models/data cleaning/data pre-processing techniques from the literature to compare your approach and evaluate critically.**
