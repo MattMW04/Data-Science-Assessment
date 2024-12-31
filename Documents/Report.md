@@ -1,8 +1,8 @@
 # Portfolio for Data Science COM618:  Diabetes Data Analysis
 
 > **Student Name:** Matthew Wilcox   
-
->**Student Number:**  Q16048563
+>**Student Number:**  Q16048563    
+> **Github Repository Link:** [Data-Science-Assessment Github Link](https://github.com/MattMW04/Data-Science-Assessment)
 
 ***
 
@@ -12,7 +12,6 @@
 Diabetes is a large, growing problem within the Medical community, with Diabetes being the direct cause of 1.6 million deaths in 2021 [^1], with the mortality rates increasing since 2000. Furthermore, 59% of adults (30 and over) were living without medication with Diabetes in 2022. These figures represent a challenge in the medical area with effectively screening for people who have the disease and also a problem in distributing care, leading to these increased mortality rates. This represents that the industry could benefit from some analysis of data on the problem in order to help them make informed decisions quicker to help take preventative measures to stop the disease/ distribute care to people with the disease to stop mortality rates rising further.
 
 [^1]: [WHO Diabetes Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes)
-- ** DELETE Write about the background of the topic area and a brief literature review, some challenges in the sector and/or the problem statement.**
 
 ***
 #### Aims/Objectives of the coursework: 
@@ -182,28 +181,29 @@ Over a few iterations of the model, we go the highest performance by removing pr
 These results for the final model show that the model is very good at evaluating our data based on 4 variables, glucose, bmi blood pressure and age. These would be good indicators for BMI in the medical field, so this could be a useful model for future research. This model gained 99% accuracy with only 8 rows misclassified and had high scores in precision, recall and f-1 score across both outcomes. The feature importance of glucose being so high tracks with real life diabetes studies and also our EDA from earlier, showing the model is classifying correctly. Overall, this model has been very successful at classifying patients.
 ***
 
-***
-
 ## Limitations and Challenges
 
 Some of the limitations with this dataset include:
 Missing values - having missing values in any dataset isn't ideal as it creates a lack of real life, accurate data. We got around this in our data Preprocessing/ Preparation Phase, however 2 variables were dropped from the table during this and other variables having missing values imputed from the average (mean). Due to this, we may lack understanding of how those other variables contribute, which can affect healthcare and also the imputed values may skew any models trained as they are not true organic values gained from study.
-Misbalanced data - This data has more Values for Outcome 0 (1816) then outcome 1 (952). Thishas effected the analytical power of Models such as LogisticRegression as it struggled to identify the 1 outcome as well as 0 as it had less training rows.
+Misbalanced data - This data has more Values for Outcome 0 (1816) then outcome 1 (952). This has effected the analytical power of Models such as LogisticRegression as it struggled to identify the 1 outcome as well as 0 as it had less training rows.
 
 ***
 
 ## Conclusion
 
-The analysis of this data identified Glucose, BMI , Blood Pressure and Age as significant indicators of diaetes, aligning with medical research. Through preprocessing the original dataset, EDA and machine learning algorithms , using feature selections i created an effective model with Random Forest Classifier, which had 99% accuracy of classification. 
+The analysis of this data identified Glucose, BMI , Blood Pressure and Age as significant indicators of diabetes, aligning with medical research. Through preprocessing the original dataset, EDA and machine learning algorithms , using feature selections i created an effective model with Random Forest Classifier, which had 99% accuracy of classification. 
 This project showed the importance of quality data obtained through preprocessing visualisation in order to gain early insights into the data. Limitations such as imbalanced outcome amounts and missing values highlighted a challenge in healthcare datasets which may prevent some from gaining meaningful insights. 
 Reflecting on this work , I gained experience in handling data , preprocessing it to increase usability, visualise data to analyse trends and creation of classifications models. Future work could be done on : Feature imbalance, Outlier detection and removal and further analysis of data, which would overall contribute to better tools for diagnoses, prevention and management of Diabetes. 
+***
+Word Count (Excluding references): 2076
+
 ***
 
 > ## Reference List (Harvard Style)
 >
 > [1]  World Health Organization (2021) Diabetes Fact Sheet. Available at: https://www.who.int/news-room/fact-sheets/detail/diabetes  (Accessed: 27 December 2024).
 > [2] Mehmet Akturk (Mathchi) (n.d.) Diabetes Data Set. Available at: https://www.kaggle.com/datasets/mathchi/diabetes-data-set  (Accessed: 27 December 2024).
-> GeeksforGeeks, 2024. Logistic Regression vs Random Forest Classifier. [online] Available at: https://www.geeksforgeeks.org/logistic-regression-vs-random-forest-classifier/ [Accessed 30 December 2024].
->Pandas Documentation, 2024. pandas.DataFrame.T. [online] Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.T.html [Accessed 30 December 2024].
->Tryolabs, 2017. Pandas & Seaborn: A guide to handle & visualize data elegantly. [online] Available at: https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly [Accessed 30 December 2024].
->Statology, 2024. sklearn regression coefficients. [online] Available at: https://www.statology.org/sklearn-regression-coefficients/ [Accessed 30 December 2024].
+> [3] GeeksforGeeks, 2024. Logistic Regression vs Random Forest Classifier. [online] Available at: https://www.geeksforgeeks.org/logistic-regression-vs-random-forest-classifier/ [Accessed 30 December 2024].
+>[4] Pandas Documentation, 2024. pandas.DataFrame.T. [online] Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.T.html [Accessed 30 December 2024].
+>[5] Tryolabs, 2017. Pandas & Seaborn: A guide to handle & visualize data elegantly. [online] Available at: https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly [Accessed 30 December 2024].
+>[6] Statology, 2024. sklearn regression coefficients. [online] Available at: https://www.statology.org/sklearn-regression-coefficients/ [Accessed 30 December 2024].
