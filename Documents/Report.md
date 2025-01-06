@@ -201,9 +201,9 @@ Word Count (Excluding references): 2076
 
 > ## Reference List (Harvard Style)
 >
-> [1]  World Health Organization (2021) Diabetes Fact Sheet. Available at: https://www.who.int/news-room/fact-sheets/detail/diabetes  (Accessed: 27 December 2024).
-> [2] Mehmet Akturk (Mathchi) (n.d.) Diabetes Data Set. Available at: https://www.kaggle.com/datasets/mathchi/diabetes-data-set  (Accessed: 27 December 2024).
-> [3] GeeksforGeeks, 2024. Logistic Regression vs Random Forest Classifier. [online] Available at: https://www.geeksforgeeks.org/logistic-regression-vs-random-forest-classifier/ [Accessed 30 December 2024].
->[4] Pandas Documentation, 2024. pandas.DataFrame.T. [online] Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.T.html [Accessed 30 December 2024].
->[5] Tryolabs, 2017. Pandas & Seaborn: A guide to handle & visualize data elegantly. [online] Available at: https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly [Accessed 30 December 2024].
->[6] Statology, 2024. sklearn regression coefficients. [online] Available at: https://www.statology.org/sklearn-regression-coefficients/ [Accessed 30 December 2024].
+> [1]  World Health Organization (2021) Diabetes Fact Sheet. Available at: https://www.who.int/news-room/fact-sheets/detail/diabetes  (Accessed: 27 December 2024).   
+> [2] Mehmet Akturk (Mathchi) (n.d.) Diabetes Data Set. Available at: https://www.kaggle.com/datasets/mathchi/diabetes-data-set  (Accessed: 27 December 2024).   
+> [3] GeeksforGeeks, 2024. Logistic Regression vs Random Forest Classifier. [online] Available at: https://www.geeksforgeeks.org/logistic-regression-vs-random-forest-classifier/ [Accessed 30 December 2024].   
+>[4] Pandas Documentation, 2024. pandas.DataFrame.T. [online] Available at: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.T.html [Accessed 30 December 2024].   
+>[5] Tryolabs, 2017. Pandas & Seaborn: A guide to handle & visualize data elegantly. [online] Available at: https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly [Accessed 30 December 2024].   
+>[6] Statology, 2024. sklearn regression coefficients. [online] Available at: https://www.statology.org/sklearn-regression-coefficients/ [Accessed 30 December 2024].   
